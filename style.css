@@ -125,7 +125,7 @@ color: #D870DB;
     width: 150px;
     height: auto;
     border-radius: 50%;
-    border: 4px solid #D870Db;
+    border: 4px solid #3e5cf1;
 }
 
 .name-text {
@@ -147,7 +147,7 @@ color: #D870DB;
     height: 50px;
     border-radius: 15px;
     border: none;
-    background-color: #D870DB;
+    background-color: #3e5cf1;gi
     color: #fff;
     font-family: 'Oswald', sans-serif;
     margin-top: 35px;
@@ -242,4 +242,69 @@ color: #D870DB;
 .project-text {
     color: white;
     font-family: 'Oswald', sans-serif;
+}
+
+.form-container {
+    width: 100%;
+    height: 140%;
+    display: flex;
+    background-image: url(https://png.pngtree.com/background/20230714/original/pngtree-synergies-of-mathematics-study-concept-blue-photo-picture-image_4222869.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    border: none;
+    background: rgba(128, 128, 128, 0.66);
+    color: #333;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin: 13% 0 20px 0;
+    color: white;
+    font-weight: 700;
 }
